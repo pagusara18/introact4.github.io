@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Activity 4</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    
+    .animated-background {
+      width: 100vw;
+      height: 100vh;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      background: url('back_ground.gif') no-repeat center center fixed;
+      background-size: cover;
+      animation: animatedBackground 10s linear infinite;
+    }
+    
+      gifBackground {
+      0% { background-position: 0 0; }
+      100% { background-position: 100% 100%; }
+    }
+    .content {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      padding-top: 50px;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    a  {
+        color:white;
+        text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="animated-background"></div>
+  <div class="content">
+    <h1>Welcome to Our Website</h1>
+    <a href="aboutus.html">Get to know us more!</a>
+  </div>
+</div>
+</body>
+</html>
+
+
